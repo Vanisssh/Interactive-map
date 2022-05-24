@@ -205,4 +205,95 @@ fetch('https://api.openweathermap.org/data/2.5/weather?id=532096&appid=35dababd5
         document.querySelector('.disclaimer77').textContent = data.weather[0]['description'];
         document.querySelector('.features77').textContent = "Wind speed: " + data.wind.speed + " m/s";
     })
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=569696&appid=35dababd545f246452dd18a7ebed27e2')
+    .then (function (resp) {return resp.json()})
+    .then (function (data) {
+        console.log(data);
+        document.querySelector('.package-name21').textContent = data.name;
+        document.querySelector('.price21').innerHTML = Math.round(data.main.temp - 273) + '&deg;'
+        document.querySelector('.disclaimer21').textContent = data.weather[0]['description'];
+        document.querySelector('.features21').textContent = "Wind speed: " + data.wind.speed + " m/s";
+    })
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=1510853&appid=35dababd545f246452dd18a7ebed27e2')
+    .then (function (resp) {return resp.json()})
+    .then (function (data) {
+        console.log(data);
+        document.querySelector('.package-name22').textContent = data.name;
+        document.querySelector('.price22').innerHTML = Math.round(data.main.temp - 273) + '&deg;'
+        document.querySelector('.disclaimer22').textContent = data.weather[0]['description'];
+        document.querySelector('.features22').textContent = "Wind speed: " + data.wind.speed + " m/s";
+    })
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=542420&appid=35dababd545f246452dd18a7ebed27e2')
+    .then (function (resp) {return resp.json()})
+    .then (function (data) {
+        console.log(data);
+        document.querySelector('.package-name23').textContent = data.name;
+        document.querySelector('.price23').innerHTML = Math.round(data.main.temp - 273) + '&deg;'
+        document.querySelector('.disclaimer23').textContent = data.weather[0]['description'];
+        document.querySelector('.features23').textContent = "Wind speed: " + data.wind.speed + " m/s";
+    })
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=795140&appid=35dababd545f246452dd18a7ebed27e2')
+    .then (function (resp) {return resp.json()})
+    .then (function (data) {
+        console.log(data);
+        document.querySelector('.package-name24').textContent = data.name;
+        document.querySelector('.price24').innerHTML = Math.round(data.main.temp - 273) + '&deg;'
+        document.querySelector('.disclaimer24').textContent = data.weather[0]['description'];
+        document.querySelector('.features24').textContent = "Wind speed: " + data.wind.speed + " m/s";
+    })
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=2013348&appid=35dababd545f246452dd18a7ebed27e2')
+    .then (function (resp) {return resp.json()})
+    .then (function (data) {
+        console.log(data);
+        document.querySelector('.package-name25').textContent = data.name;
+        document.querySelector('.price25').innerHTML = Math.round(data.main.temp - 273) + '&deg;'
+        document.querySelector('.disclaimer25').textContent = data.weather[0]['description'];
+        document.querySelector('.features25').textContent = "Wind speed: " + data.wind.speed + " m/s";
+    })
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=487846&appid=35dababd545f246452dd18a7ebed27e2')
+    .then (function (resp) {return resp.json()})
+    .then (function (data) {
+        console.log(data);
+        document.querySelector('.package-name26').textContent = data.name;
+        document.querySelector('.price26').innerHTML = Math.round(data.main.temp - 273) + '&deg;'
+        document.querySelector('.disclaimer26').textContent = data.weather[0]['description'];
+        document.querySelector('.features26').textContent = "Wind speed: " + data.wind.speed + " m/s";
+    })
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=2022890&appid=35dababd545f246452dd18a7ebed27e2')
+    .then (function (resp) {return resp.json()})
+    .then (function (data) {
+        console.log(data);
+        document.querySelector('.package-name27').textContent = data.name;
+        document.querySelector('.price27').innerHTML = Math.round(data.main.temp - 273) + '&deg;'
+        document.querySelector('.disclaimer27').textContent = data.weather[0]['description'];
+        document.querySelector('.features27').textContent = "Wind speed: " + data.wind.speed + " m/s";
+    })
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=2026609&appid=35dababd545f246452dd18a7ebed27e2')
+    .then (function (resp) {return resp.json()})
+    .then (function (data) {
+        console.log(data);
+        document.querySelector('.package-name28').textContent = data.name;
+        document.querySelector('.price28').innerHTML = Math.round(data.main.temp - 273) + '&deg;'
+        document.querySelector('.disclaimer28').textContent = data.weather[0]['description'];
+        document.querySelector('.features28').textContent = "Wind speed: " + data.wind.speed + " m/s";
+    })
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=581049&appid=35dababd545f246452dd18a7ebed27e2')
+    .then (function (resp) {return resp.json()})
+    .then (function (data) {
+        console.log(data);
+        document.querySelector('.package-name29').textContent = data.name;
+        document.querySelector('.price29').innerHTML = Math.round(data.main.temp - 273) + '&deg;'
+        document.querySelector('.disclaimer29').textContent = data.weather[0]['description'];
+        document.querySelector('.features29').textContent = "Wind speed: " + data.wind.speed + " m/s";
+    })
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=1526059&appid=35dababd545f246452dd18a7ebed27e2')
+    .then (function (resp) {return resp.json()})
+    .then (function (data) {
+        console.log(data);
+        document.querySelector('.package-name30').textContent = data.name;
+        document.querySelector('.price30').innerHTML = Math.round(data.main.temp - 273) + '&deg;'
+        document.querySelector('.disclaimer30').textContent = data.weather[0]['description'];
+        document.querySelector('.features30').textContent = "Wind speed: " + data.wind.speed + " m/s";
+    })
+
 
